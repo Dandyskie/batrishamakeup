@@ -4,9 +4,9 @@ import { X } from 'lucide-react';
 const Portfolio = () => {
 
   const images = [
-    { src: "/image/image1.jpeg", name: "Dinar Bella.", package: "Wedding Makeup" },
-    { src: "/image/image1.jpeg", name: "Alfi Naswa.", package: "Kartini Event" },
-    { src: "/image/image1.jpeg", name: "Nazla Rani", package: "Prewedding" },
+    { src: "src/assets/image1.jpeg", name: "Dinar Bella.", package: "Wedding Makeup" },
+    { src: "src/assets/image1.jpeg", name: "Alfi Naswa.", package: "Kartini Event" },
+    { src: "src/assets/image1.jpeg", name: "Nazla Rani", package: "Prewedding" },
   ];
 
   const [selectedImage, setSelectedImage] = useState(null);
